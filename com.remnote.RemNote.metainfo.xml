@@ -57,6 +57,9 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.21.8" date="2025-10-07">
+      <description></description>
+    </release>
     <release version="1.21.5" date="2025-10-02"/>
   </releases>
 </component>
