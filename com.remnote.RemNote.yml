@@ -32,8 +32,9 @@ modules:
       - chmod +x RemNote.AppImage
       - ./RemNote.AppImage --appimage-extract
       # Patch .desktop file
-      - desktop-file-edit --set-key=Exec --set-value='start-remnote %U' squashfs-root/remnote.desktop
-      - desktop-file-edit --set-comment='The all-in-one tool for thinking and learning.'
+      - >-
+        desktop-file-edit --set-key=Exec --set-value='start-remnote %U'
+        --set-comment='The all-in-one tool for thinking and learning.'
         squashfs-root/remnote.desktop
       # Copy over the required files
       - install -Dm755 -t "${FLATPAK_DEST}/bin" start-remnote
@@ -51,7 +52,10 @@ modules:
           - export TMPDIR="${XDG_RUNTIME_DIR}/app/${FLATPAK_ID}"
           # '--disable-features=GlobalShortcutsPortal' is needed due to https://issues.chromium.org/issues/404298968
           # Remove this flag when upstream updates to a Chromium version where this issue no longer exists.
-          - zypak-wrapper /app/remnote/remnote --ozone-platform-hint=auto --disable-features=GlobalShortcutsPortal
+          - >-
+            zypak-wrapper /app/remnote/remnote
+            --ozone-platform-hint=auto
+            --disable-features=GlobalShortcutsPortal
             "$@"
       - type: file
         dest-filename: RemNote.AppImage

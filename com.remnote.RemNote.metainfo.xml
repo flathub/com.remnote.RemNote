@@ -12,17 +12,32 @@
   <developer id="com.remnote">
     <name>RemNote Inc.</name>
   </developer>
-  <update_contact>support@remnote.com</update_contact>
-  <summary>The all-in-one tool for thinking and learning</summary>
+  <update_contact>talalanwar_at_outlook.com</update_contact>
+  <summary>Make flashcards in your notes. Cut study time in half</summary>
   <description>
-    <p>**This distribution is not verified by, affiliated with, or supported by RemNote.**</p>
-    <p>RemNote is the all-in-one tool for thinking and learning. It combines
-      note-taking, spaced repetition, and knowledge management in a single
-      platform to help you learn faster and think better.</p>
-    <p>With RemNote, you can take interconnected notes with powerful linking,
-      use spaced repetition flashcards generated automatically from your notes,
-      and organize your thoughts with tags, folders, and powerful search.</p>
+    <p>**Note: This is a community package of RemNote. It is not verified by, affiliated with, or supported by RemNote Inc.**</p>
+    <p>RemNote is an all-in-one learning tool that combines note-taking, knowledge management, flashcards, and spaced repetition to enable effective and efficient learning.</p>
+    <p>Key features:</p>
+    <ul>
+      <li>Notes, Docs &amp; Outlines: Capture and link ideas for long-term knowledge management</li>
+      <li>Smart Flashcards: Create flashcards directly from your notes</li>
+      <li>Spaced Repetition: Build long-term memory with proven study intervals</li>
+      <li>Linked References: Review all notes connected to a topic with contextual links</li>
+      <li>PDF Annotation: Highlight, annotate, and create flashcards from documents</li>
+      <li>Multimedia Embedding: Incorporate videos, documents, and more into notes</li>
+      <li>Tags: Organize notes, to-dos, and multimedia materials</li>
+      <li>LaTeX Formulas: Create and edit mathematical formulas inline</li>
+      <li>Templates: Automate repetitive note-taking tasks</li>
+      <li>Code Blocks: Keep programming notes separate from code</li>
+      <li>Import &amp; Sync: Bring data from any note-taking app</li>
+      <li>Offline Mode: Work without internet connection</li>
+    </ul>
+    <p>Perfect for students, researchers, and lifelong learners who want to build lasting knowledge while cutting study time in half.</p>
   </description>
+  <branding>
+    <color type="primary" scheme_preference="light">#ffffff</color>
+    <color type="primary" scheme_preference="dark">#506cf7</color>
+  </branding>
   <categories>
     <category>Education</category>
     <category>Office</category>
