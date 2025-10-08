@@ -1,8 +1,8 @@
 app-id: com.remnote.RemNote
 base: org.electronjs.Electron2.BaseApp
-base-version: "25.08"
+base-version: '25.08'
 runtime: org.freedesktop.Platform
-runtime-version: "25.08"
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 command: start-remnote
 rename-icon: remnote
@@ -33,7 +33,8 @@ modules:
       - ./RemNote.AppImage --appimage-extract
       # Patch .desktop file
       - desktop-file-edit --set-key=Exec --set-value='start-remnote %U' squashfs-root/remnote.desktop
-      - desktop-file-edit --set-comment='The all-in-one tool for thinking and learning.' squashfs-root/remnote.desktop
+      - desktop-file-edit --set-comment='The all-in-one tool for thinking and learning.'
+        squashfs-root/remnote.desktop
       # Copy over the required files
       - install -Dm755 -t "${FLATPAK_DEST}/bin" start-remnote
       - install -Dm644 -t "${FLATPAK_DEST}/share/metainfo" "${FLATPAK_ID}.metainfo.xml"
@@ -50,11 +51,12 @@ modules:
           - export TMPDIR="${XDG_RUNTIME_DIR}/app/${FLATPAK_ID}"
           # '--disable-features=GlobalShortcutsPortal' is needed due to https://issues.chromium.org/issues/404298968
           # Remove this flag when upstream updates to a Chromium version where this issue no longer exists.
-          - zypak-wrapper /app/remnote/remnote --ozone-platform-hint=auto --disable-features=GlobalShortcutsPortal "$@"
+          - zypak-wrapper /app/remnote/remnote --ozone-platform-hint=auto --disable-features=GlobalShortcutsPortal
+            "$@"
       - type: file
         dest-filename: RemNote.AppImage
-        url: https://download2.remnote.io/remnote-desktop2/RemNote-1.21.5.AppImage
-        sha256: 4eaf2aca397207fd6d424079acb5522f2f076e99df059e1098d401fc254488dd
+        url: https://download2.remnote.io/remnote-desktop2/RemNote-1.21.8.AppImage
+        sha256: 2891dd2c798b198631bf878a083a14b139f76e15a0de1f103a5c26b713450ba6
         x-checker-data:
           type: rotating-url
           url: https://backend.remnote.com/desktop/linux
