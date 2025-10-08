@@ -23,6 +23,10 @@
       use spaced repetition flashcards generated automatically from your notes,
       and organize your thoughts with tags, folders, and powerful search.</p>
   </description>
+  <branding>
+    <color type="primary" scheme_preference="light">#ffffff</color>
+    <color type="primary" scheme_preference="dark">#506cf7</color>
+  </branding>
   <categories>
     <category>Education</category>
     <category>Office</category>
