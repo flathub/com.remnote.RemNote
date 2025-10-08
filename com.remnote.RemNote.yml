@@ -58,3 +58,4 @@ modules:
         x-checker-data:
           type: rotating-url
           url: https://backend.remnote.com/desktop/linux
+          pattern: https://download2.remnote.io/remnote-desktop2/RemNote-([0-9.]+).AppImage
