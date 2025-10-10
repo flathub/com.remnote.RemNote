@@ -13,7 +13,7 @@
     <name>RemNote Inc.</name>
   </developer>
   <update_contact>talalanwar_at_outlook.com</update_contact>
-  <summary>Make flashcards in your notes. Cut study time in half</summary>
+  <summary>Make flashcards in your notes</summary>
   <description>
     <p>**Note: This is a community package of RemNote. It is not verified by, affiliated with, or supported by RemNote Inc.**</p>
     <p>RemNote is an all-in-one learning tool that combines note-taking, knowledge management, flashcards, and spaced repetition to enable effective and efficient learning.</p>
@@ -60,15 +60,11 @@
   <screenshots>
     <screenshot type="default">
       <image>https://www.remnote.com/assets/marketing-pages/medicine/medicine-main.png</image>
-      <caption>Medical study interface with spaced repetition flashcards</caption>
+      <caption>RemNote interface with spaced repetition flashcards</caption>
     </screenshot>
     <screenshot>
       <image>https://www.remnote.com/assets/landing-page/main/notes-cta.png</image>
-      <caption>Note-taking interface with interconnected knowledge management</caption>
-    </screenshot>
-    <screenshot>
-      <image>https://www.remnote.com/assets/homepage/images/desktop_offline.webp</image>
-      <caption>Desktop application interface for offline note-taking</caption>
+      <caption>RemNote interface with interconnected knowledge management</caption>
     </screenshot>
   </screenshots>
   <releases>
