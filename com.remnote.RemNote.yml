@@ -17,9 +17,9 @@ finish-args:
   - --device=dri
   - --share=network
   - --share=ipc
-  # Needed to save files locally
-  - --filesystem=~/remnote:create
-  - --filesystem=xdg-documents
+  - --filesystem=~/remnote:create # for synced knowledge bases
+  - --filesystem=xdg-documents # for local knowledge bases
+  - --filesystem=xdg-download # this is where debug logs are saved
   # Ensure proper mouse cursor scaling on HiDPI displays under Wayland
   - --env=XCURSOR_PATH=/run/host/user-share/icons:/run/host/share/icons
   # Use gio for trash operations
