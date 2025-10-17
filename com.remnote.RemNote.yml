@@ -55,6 +55,8 @@ modules:
           - >-
             zypak-wrapper /app/remnote/remnote
             --ozone-platform-hint=auto
+            --enable-wayland-ime
+            --wayland-text-input-version=3
             --disable-features=GlobalShortcutsPortal
             "$@"
       - type: file
