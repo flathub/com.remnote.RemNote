@@ -61,8 +61,8 @@ modules:
             "$@"
       - type: file
         dest-filename: RemNote.AppImage
-        url: https://download2.remnote.io/remnote-desktop2/RemNote-1.22.7.AppImage
-        sha256: 882d32730fa6c782b420ae2ef4f9a04455c03f97211dd00f1d2a5b5a9044d0aa
+        url: https://download2.remnote.io/remnote-desktop2/RemNote-1.22.11.AppImage
+        sha256: bd0bbce2a5a92f23badbe145ceceb4cf4dc2739c2cbb494da1f46f6f54e599e1
         x-checker-data:
           type: rotating-url
           url: https://backend.remnote.com/desktop/linux
