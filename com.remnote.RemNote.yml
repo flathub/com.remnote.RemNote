@@ -62,7 +62,7 @@ modules:
       - type: file
         dest-filename: RemNote.AppImage
         url: https://download2.remnote.io/remnote-desktop2/RemNote-1.25.7.AppImage
-        sha256: 37a7089196b958148af7f0740ddb819bbbdb278388cea61758ef071cbe461d6b
+        sha256: 7248a033e91757c5b9888e364864b215dd7ffdee6086a895fdbe896b96adec3a
         x-checker-data:
           type: rotating-url
           url: https://backend.remnote.com/desktop/linux
