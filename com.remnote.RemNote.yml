@@ -40,7 +40,7 @@ modules:
       - install -Dm755 -t "${FLATPAK_DEST}/bin" start-remnote
       - install -Dm644 -t "${FLATPAK_DEST}/share/metainfo" "${FLATPAK_ID}.metainfo.xml"
       - install -Dm644 -t "${FLATPAK_DEST}/share/applications" squashfs-root/remnote.desktop
-      - install -Dm644 -t "${FLATPAK_DEST}/share/icons/hicolor/512x512/apps" squashfs-root/usr/share/icons/hicolor/0x0/apps/remnote.png
+      - install -Dm644 -t "${FLATPAK_DEST}/share/icons/hicolor/512x512/apps" squashfs-root/usr/share/icons/hicolor/512x512/apps/remnote.png
       - mv squashfs-root "${FLATPAK_DEST}/remnote"
     sources:
       - type: file
